@@ -5,6 +5,9 @@ git remote add origin link
 git config user.name pritanjan
 git config user.email email
 
+
+# Crud Operation
+
 ## push
 git add .
 git commit -m 'first commit'
@@ -34,7 +37,6 @@ git pull origin 'branch_name'
 ## merge current branch to master
 git merge
 
-
 ## switch branch
 git checkout new_branch
 
@@ -48,6 +50,9 @@ git branch -D Testing
 git rm -r --cached
 git add .
 git commit -m 'msg'
+
+
+## Generate SSH Key
 
 # generating SSH key using git commands
 ##  Step 1
